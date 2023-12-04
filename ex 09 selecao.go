@@ -17,10 +17,8 @@ func main() {
 	fmt.Print("Digite o terceiro número real: ")
 	fmt.Scan(&num3)
 
-	// Criar uma fatia (slice) com os números e ordená-la
 	numeros := []float64{num1, num2, num3}
 	sort.Float64s(numeros)
 
-	// Mostrar os números em ordem crescente
 	fmt.Println("Números em ordem crescente:", numeros)
 }
