@@ -8,9 +8,9 @@ func main() {
 		leitura       int
 	)
 
-	// Ler o primeiro número
+
 	fmt.Print("Digite um número inteiro (ou 0 para encerrar): ")
 	fmt.Scan(&leitura)
 	maior = leitura
 
-	// Verifica
+
